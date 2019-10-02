@@ -54,6 +54,6 @@ app.use(function(err, req, res, next) {
 })
 
 app.listen(process.env.PORT, function () {
-  console.log('Node.js listening ...');
+  console.log('Node.js listening on Port: '+process.env.PORT);
 });
 
