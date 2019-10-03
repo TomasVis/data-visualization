@@ -8,28 +8,38 @@ body {
 	text-align: center;
 }
 
-.container {
-	padding: 0;
-	margin-top: 40px;
+
+.bar:hover{
+	fill:white;
 }
 
-.footer {
-	margin-top: 60px;
+body {
+  font: 10px sans-serif;
 }
 
-ol {
-	list-style-position: inside;
-}
-ul {
-	list-style-type: none;
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
 
-a {
-	color: #2574A9;
+.bar {
+  fill: orange;
 }
-/****** Logo Div Styling ******/
 
-img {
-	margin: 20px auto 0 auto;
-	display: block;
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+#tooltip{
+	width:100px;
+	height:50px;
+	background-color: pink;
+	font-size: 12px;
+
 }
