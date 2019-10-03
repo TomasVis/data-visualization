@@ -1,1 +1,2 @@
-# Backend Challenges boilerplate - package.json
+# FCC Data visualization chalange
+
